@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Music & Technology
+author: 威天昭
 email: zhao_tw@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just a personal blog to share something.
@@ -26,6 +27,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhao_tw
 github_username:  zhaotw
+# generate social links in footer
+social_links:
+  twitter: jekyllrb
+  github:  jekyll
+  rss: rss
+  # dribbble: jekyll
+  # facebook: jekyll
+  # flickr:   jekyll
+  # instagram: jekyll
+  # linkedin: jekyll
+  # pinterest: jekyll
+  youtube: zhaotw48
+  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  # youtube_channel_name: CloudCannon
+
 github:
   owner_name: 威天昭
   is_project_page: true
@@ -36,6 +52,7 @@ theme: jekyll-theme-cayman
 show_downloads: true
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
