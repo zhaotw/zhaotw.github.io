@@ -1,75 +1,76 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
+title:              Music & Technology
+bio:                'A personal blog to share almost everything'
+description:        "Moon is a minimal, one column jekyll theme for your blog."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                https://zhaotw.github.io
 
-title: Music & Technology
-author: 威天昭
-email: zhao_tw@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Just a personal blog to share something.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: zhao_tw
-github_username:  zhaotw
-# generate social links in footer
-social_links:
-  twitter: jekyllrb
-  github:  jekyll
-  rss: rss
-  # dribbble: jekyll
-  # facebook: jekyll
-  # flickr:   jekyll
-  # instagram: jekyll
-  # linkedin: jekyll
-  # pinterest: jekyll
-  youtube: zhaotw48
-  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-  # youtube_channel_name: CloudCannon
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-github:
-  owner_name: 威天昭
-  is_project_page: true
-  repository_url: https://github.com/zhaotw/zhaotw.github.io
+# Comments
+disqus_shortname:   taylantatli
 
-# Build settings
-theme: jekyll-theme-cayman
-show_downloads: true
-plugins:
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+email:              zhao_tw@outlook.com
+twitter:            zhao_tw
+facebook:           赵添威
+github-url:         zhaotw
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+instagram:          zhao_tw
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+steam:              威天昭
+#dribbble:          username
+#youtube:           username
+youtube-channel:    UCRD4hP7uN05MJ1t_1OlzNMg?view_as=subscriber
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
