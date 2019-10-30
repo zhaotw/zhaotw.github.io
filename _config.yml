@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-#url:                https://taylantatli.github.io/Moon
+#url:                https://zhaotw.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   zhaotw
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -39,7 +39,7 @@ disqus_shortname:   taylantatli
 #bing-verify:
 email:              zhao_tw@outlook.com
 twitter:            zhao_tw
-facebook:           赵添威
+facebook:           profile.php?id=100009241821337
 github-url:         zhaotw
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -55,7 +55,7 @@ steam:              威天昭
 #youtube:           username
 youtube-channel:    UCRD4hP7uN05MJ1t_1OlzNMg?view_as=subscriber
 #soundcloud:        username
-#weibo:             username
+weibo:              5199726126/profile?topnav=1&wvr=6
 #flickr:            username
 #codepen:           username
 #keybase:           username
