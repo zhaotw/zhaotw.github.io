@@ -1,10 +1,10 @@
 # Site
-title:              Music & Technology
-bio:                'A personal blog to share almost everything'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              天秤座不会取名字
+bio:                'UNDER CONSTRUCTION'
+description:        ''
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -29,7 +29,6 @@ sass:
 disqus_shortname:   zhaotw
 
 # Social
-# if you don't have any of social below, comment the line.
 google:
   #plus:            #username
   analytics:        zhaotw48
@@ -39,18 +38,18 @@ google:
 #bing-verify:
 email:              zhao_tw@outlook.com
 twitter:            zhao_tw
-facebook:           profile.php?id=100009241821337
+#facebook:           profile.php?id=100009241821337
 github-url:         zhaotw
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          zhao_tw
+#instagram:          zhao_tw
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              威天昭
+#steam:              威天昭
 #dribbble:          username
 #youtube:           username
 youtube-channel:    UCRD4hP7uN05MJ1t_1OlzNMg?view_as=subscriber
